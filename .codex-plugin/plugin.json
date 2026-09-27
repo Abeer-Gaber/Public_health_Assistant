@@ -1,0 +1,25 @@
+{
+  "interface": {
+    "displayName": "Public Health Assistant",
+    "shortDescription": "Understand local health indicators",
+    "longDescription": "Explain community health measures, interpret supplied data with its limits, and suggest practical local questions and actions.",
+    "developerName": "Plugin owner",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive"
+    ],
+    "defaultPrompt": [
+      "Explain this local health indicator in plain language.",
+      "What can our community organization learn from this table?",
+      "Help me distinguish what this map shows from possible explanations."
+    ]
+  },
+  "name": "public-health-assistant",
+  "version": "0.1.1",
+  "description": "Explain local public-health indicators in plain language and suggest grounded community next steps.",
+  "author": {
+    "name": "Plugin owner"
+  },
+  "keywords": [],
+  "skills": "./skills"
+}
