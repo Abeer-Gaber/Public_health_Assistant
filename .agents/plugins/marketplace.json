@@ -1,0 +1,20 @@
+{
+  "name": "public-health-assistant-repo",
+  "interface": {
+    "displayName": "Public Health Assistant"
+  },
+  "plugins": [
+    {
+      "name": "public-health-assistant",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
